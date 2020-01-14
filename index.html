@@ -3,6 +3,7 @@
 <head>
     <title>Title</title>
 	<link rel="manifest" href="manifest.json">
+	<link rel="shortcut icon" href="/icon.png">
     <link rel="canonical" href="https://damaru.github.io/pwatest/" />
     <style type="text/css">
     /* --- application CSS here --- */
@@ -13,18 +14,19 @@
       font-family: Georgia, serif;
     }
 
-
     </style>
 </head>
 <body>
   <h1>Content</h1>
+
   <script>
   // register ServiceWorker, remember to use absolute path!
   if (navigator.serviceWorker) {
     navigator.serviceWorker.register('/pwatest/sw.js', {scope: '/pwatest/'})
   }
-  
   // --- Application code here ---
   </script>
+
+
 </body>
 </html>
