@@ -7,7 +7,7 @@ var CACHE_NAME = APP_PREFIX + VERSION
 //]
 //
 
-var URLS = ['/pwatest/static']
+var URLS = ['/pwatest/icon.png', ]
 
 
 // Respond with cached resources
